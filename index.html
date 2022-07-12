@@ -5,12 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minhas Redes Sociais</title>
-    <link rel="stylesheet" href="../meuprojetosocial/estilos/style.css">
+   <style>
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background: url("../meuprojetosocial/imagens/fundofundooo.png") no-repeat;
+    
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+section.pc {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../meuprojetosocial/imagens/frame-iphone.png") no-repeat center center;
+    height: 619px;
+    width: 298px;
+    
+}
+
+iframe#tela {
+
+    position: relative;
+    top: 76px;
+    left: 15px;
+    width: 268px;
+    height: 471px;
+}
+
+   </style>
 </head>
 <body>
     <main>
         <section class="pc">
-            <iframe id="tela" src="home.html"  frameborder="0"></iframe>
+            <iframe id="tela" src="home.html"  frameborder="0" ></iframe>
              
             
         </section>
